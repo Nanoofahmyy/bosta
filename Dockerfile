@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5000
 
 # Define the command to start your Node.js application
-CMD ["node", "server.js" , "npm" , "test"]
+CMD ["npm", "run" , "local"]
